@@ -8,10 +8,13 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --red:       #E8282A;
-  --red-h:     #C91E20;
-  --red-lt:    #FFF0F0;
-  --blue:      #1D6DD4;
+  --red:       #0D2B5E;
+  --red-h:     #091E42;
+  --red-lt:    #EEF3FF;
+  --blue:      #1A4FA0;
+  --yellow:    #F5C518;
+  --yellow-h:  #D4A800;
+  --yellow-lt: #FFFBEA;
   --wa:        #25D366;
   --wa-h:      #1EBE5A;
   --white:     #FFFFFF;
@@ -244,7 +247,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .promo-brand {
   font-size: .78rem;
   font-weight: 600;
-  color: rgba(255,255,255,.7);
+  color: var(--yellow);
   letter-spacing: .04em;
 }
 
@@ -256,7 +259,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-bottom: 10px;
   letter-spacing: -.01em;
 }
-.hero__destaque { font-size: clamp(2.2rem, 5.5vw, 3.8rem); display: block; }
+.hero__destaque { font-size: clamp(2.2rem, 5.5vw, 3.8rem); display: block; color: var(--yellow); }
 
 .hero__sub {
   color: rgba(255,255,255,.78);
@@ -590,7 +593,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--gray1);
   margin-top: 3px;
 }
-.vcard__parcela strong { color: var(--red); }
+.vcard__parcela strong { color: var(--yellow-h); }
 
 .vcard__btns {
   display: grid;
@@ -887,7 +890,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-bottom: 14px;
 }
 .sim__label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--gray1); margin-bottom: 6px; }
-.sim__parcela { font-size: 1.8rem; font-weight: 900; color: var(--red); transition: var(--t); }
+.sim__parcela { font-size: 1.8rem; font-weight: 900; color: var(--yellow-h); transition: var(--t); }
 .sim__obs { font-size: .7rem; color: var(--gray1); margin-top: 5px; }
 .btn-red-full {
   display: block;
@@ -1086,7 +1089,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .sobre__btn:hover { background: #c41f21; }
 .sobre__hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .sobre__stat { background: rgba(255,255,255,.07); border-radius: var(--radius); padding: 20px; text-align: center; }
-.sobre__stat strong { display: block; font-size: 2rem; font-weight: 900; color: var(--red); }
+.sobre__stat strong { display: block; font-size: 2rem; font-weight: 900; color: var(--yellow); }
 .sobre__stat span { font-size: .82rem; color: rgba(255,255,255,.6); margin-top: 4px; display: block; }
 .sobre__sec { padding: 60px 0; }
 .sobre__sec--gray { background: var(--bg); }
@@ -1195,7 +1198,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   line-height: 1.15;
   margin-bottom: 14px;
 }
-.vender__h2-dest { color: var(--red); }
+.vender__h2-dest { color: var(--yellow-h); }
 .vender__desc {
   font-size: .9rem;
   color: var(--gray1);
@@ -1734,7 +1737,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--text);
   line-height: 1.15;
 }
-.det__modelo-dest { color: var(--red); }
+.det__modelo-dest { color: var(--yellow-h); }
 .det__versao { font-size: .88rem; color: var(--gray1); margin-bottom: 10px; }
 .det__cidade { font-size: .85rem; color: var(--text2); margin-bottom: 24px; }
 .det__badge-dest {
@@ -1865,7 +1868,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .sim-car__info { padding: 10px 12px 12px; }
 .sim-car__nome { display: block; font-size: .88rem; font-weight: 700; }
 .sim-car__versao { display: block; font-size: .75rem; color: var(--muted); margin: 2px 0 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sim-car__preco { font-size: .95rem; font-weight: 800; color: var(--red); }
+.sim-car__preco { font-size: .95rem; font-weight: 800; color: var(--yellow-h); }
 .sim-car__meta { display: flex; gap: 8px; font-size: .75rem; color: var(--muted); margin-top: 4px; }
 .sim-car__arrow {
   position: absolute;
@@ -2103,7 +2106,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--gray1);
   margin-bottom: 16px;
 }
-.det__parcela-hint strong { color: var(--red); }
+.det__parcela-hint strong { color: var(--yellow-h); }
 .det__btn-wa {
   display: flex;
   align-items: center;
