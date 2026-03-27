@@ -189,7 +189,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 /* ===== HERO ===== */
 .hero { background: #fff; }
 
-/* Banner vermelho */
+/* Banner azul */
 .hero__banner {
   position: relative;
   min-height: 340px;
@@ -201,11 +201,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   width: 100%; height: 100%;
   object-fit: cover;
   object-position: center 35%;
-  opacity: .22;
+  opacity: .18;
 }
 .hero__bg-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(90deg, rgba(180,10,12,.92) 0%, rgba(220,30,32,.7) 55%, rgba(180,10,12,.4) 100%);
+  background: linear-gradient(90deg, rgba(9,30,66,.95) 0%, rgba(13,43,94,.82) 55%, rgba(13,43,94,.5) 100%);
 }
 
 .hero__banner-content {
@@ -247,7 +247,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .promo-brand {
   font-size: .78rem;
   font-weight: 600;
-  color: var(--yellow);
+  color: rgba(255,255,255,.7);
   letter-spacing: .04em;
 }
 
@@ -537,7 +537,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .vcard__dest {
   position: absolute;
   top: 8px; right: 8px;
-  background: var(--red);
+  background: #E8282A;
   color: #fff;
   font-size: .68rem;
   font-weight: 700;
@@ -593,7 +593,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--gray1);
   margin-top: 3px;
 }
-.vcard__parcela strong { color: var(--yellow-h); }
+.vcard__parcela strong { color: #E8282A; }
 
 .vcard__btns {
   display: grid;
@@ -890,7 +890,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   margin-bottom: 14px;
 }
 .sim__label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--gray1); margin-bottom: 6px; }
-.sim__parcela { font-size: 1.8rem; font-weight: 900; color: var(--yellow-h); transition: var(--t); }
+.sim__parcela { font-size: 1.8rem; font-weight: 900; color: #E8282A; transition: var(--t); }
 .sim__obs { font-size: .7rem; color: var(--gray1); margin-top: 5px; }
 .btn-red-full {
   display: block;
@@ -1089,7 +1089,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .sobre__btn:hover { background: #c41f21; }
 .sobre__hero-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .sobre__stat { background: rgba(255,255,255,.07); border-radius: var(--radius); padding: 20px; text-align: center; }
-.sobre__stat strong { display: block; font-size: 2rem; font-weight: 900; color: var(--yellow); }
+.sobre__stat strong { display: block; font-size: 2rem; font-weight: 900; color: #E8282A; }
 .sobre__stat span { font-size: .82rem; color: rgba(255,255,255,.6); margin-top: 4px; display: block; }
 .sobre__sec { padding: 60px 0; }
 .sobre__sec--gray { background: var(--bg); }
@@ -1198,7 +1198,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   line-height: 1.15;
   margin-bottom: 14px;
 }
-.vender__h2-dest { color: var(--yellow-h); }
+.vender__h2-dest { color: #E8282A; }
 .vender__desc {
   font-size: .9rem;
   color: var(--gray1);
@@ -1737,7 +1737,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--text);
   line-height: 1.15;
 }
-.det__modelo-dest { color: var(--yellow-h); }
+.det__modelo-dest { color: #E8282A; }
 .det__versao { font-size: .88rem; color: var(--gray1); margin-bottom: 10px; }
 .det__cidade { font-size: .85rem; color: var(--text2); margin-bottom: 24px; }
 .det__badge-dest {
@@ -1868,7 +1868,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .sim-car__info { padding: 10px 12px 12px; }
 .sim-car__nome { display: block; font-size: .88rem; font-weight: 700; }
 .sim-car__versao { display: block; font-size: .75rem; color: var(--muted); margin: 2px 0 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.sim-car__preco { font-size: .95rem; font-weight: 800; color: var(--yellow-h); }
+.sim-car__preco { font-size: .95rem; font-weight: 800; color: #E8282A; }
 .sim-car__meta { display: flex; gap: 8px; font-size: .75rem; color: var(--muted); margin-top: 4px; }
 .sim-car__arrow {
   position: absolute;
@@ -1984,7 +1984,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   line-height: 1;
 }
 .det__btn-sim-toggle {
-  background: var(--red);
+  background: #E8282A;
   color: #fff;
   font-size: .8rem;
   font-weight: 700;
@@ -1996,7 +1996,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   white-space: nowrap;
   font-family: inherit;
 }
-.det__btn-sim-toggle:hover { background: var(--red-h); }
+.det__btn-sim-toggle:hover { background: #C91E20; }
 .det__btn-sim-toggle.active { background: var(--gray1); }
 
 /* Simulador inline */
@@ -2106,7 +2106,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   color: var(--gray1);
   margin-bottom: 16px;
 }
-.det__parcela-hint strong { color: var(--yellow-h); }
+.det__parcela-hint strong { color: #E8282A; }
 .det__btn-wa {
   display: flex;
   align-items: center;
